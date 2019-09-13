@@ -1,0 +1,26 @@
+* {
+  font-family: $stack-sans-serif;
+  color: $color-text-primary;
+  box-sizing: border-box;
+}
+
+
+// Base style
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto !important;
+}
+
+input {
+  border: none;
+  font-weight: bold;
+  color: darken($silver-chalice, 15%);
+}
+
+nav[role="navigation"] {
+  padding: 20.5px 0;
+}
